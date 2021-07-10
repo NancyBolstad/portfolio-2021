@@ -1,20 +1,22 @@
 <template>
   <article>
-    <h1>Hi, I am a Full Stack Developer from Oslo.</h1>
-    <strong class="uk-text-lead">JavaScript | TypeScript | Java | Go</strong>
-       <p class="uk-text-lead">
-      Previously Full Stack Developer
+    <h1>Hi, I am a Software Developer from Oslo.</h1>
+    <p class="uk-text-lead">
+      <strong>JavaScript | TypeScript | Java | Go</strong>
+    </p>
+    <p class="uk-text-lead">
+      Full Stack Developer
       <a
-        href="https://www.universitetsforlaget.no/"
+        href="https://juridika.no/"
         target="_blank"
         rel="noopener noreferrer"
         title="Go to Universitetsforlaget's website"
         aria-label="Go to Universitetsforlaget's website"
-        >@Universitetsforlaget</a
+        >@Juridika</a
       >
     </p>
     <p class="uk-text-lead">
-      Front-end Developer
+      Previously Front-end Developer
       <a
         href="https://ludensgruppen.no/"
         target="_blank"
@@ -47,11 +49,20 @@ export default {
 }
 
 h1 {
-  margin: 2rem 0;
+  margin: 2rem 0 3.5rem;
   font-weight: 900;
 }
 
 .uk-text-lead {
   margin: 1.375rem 0;
+}
+
+.uk-text-lead > strong {
+  line-height: 3;
+  font-weight: 900;
+}
+
+.uk-text-lead > a {
+  text-decoration: underline;
 }
 </style>
